@@ -1,1 +1,37 @@
-/* write your override styles here */
+/* cleanup.css */
+
+/* This will override the styles of .tag-1 */
+#wall .tag-1 {
+    display: none;
+  }
+  
+  /* This will override the styles of #tag-2 */
+  body #wall #tag-2 {
+    display: none;
+  }
+  
+  /* This will override the styles of #tag-3 */
+  body div#wall #tag-3.slick {
+    display: none;
+  }
+  
+  /* This will override the styles of #tag-4 */
+  body div#wall .parent #tag-4 {
+    display: none;
+  }
+  
+  /* This will override the styles of #tag-5 */
+  body div#wall .parent #tag-5.slick {
+    display: none;
+  }
+  
+  /* This will override the styles of #tag-6 */
+  body div#wall div.parent div:last-child div#tag-6 {
+    display: none;
+  }
+  
+  /* This will override the styles of #tag-7 */
+  html body div#wall div.parent div > #tag-7.slick {
+    display: none;
+  }
+  
